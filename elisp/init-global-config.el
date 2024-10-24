@@ -122,6 +122,10 @@ The original function deletes trailing whitespace of the current line."
 (setq x-alt-keysym 'meta)
 ;; -EditExp
 
+;; For mac use mac-command-modifier to map command to meta
+(when *sys/mac*
+  (setq mac-command-modifier 'meta))
+
 ;; History
 (use-package recentf
   :ensure nil
