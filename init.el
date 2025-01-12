@@ -183,6 +183,8 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (require 'init-python)
 
+(require 'init-clojure)
+
 (require 'init-haskell)
 
 (require 'init-ess)
@@ -190,6 +192,7 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 (require 'init-latex)
 
 (require 'init-buildsystem)
+
 
 ;; Web Development
 (require 'init-webdev)
